@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-
+console.log("HI");
 
 console.log(name);
 $('#submit-form').click(function(event){
