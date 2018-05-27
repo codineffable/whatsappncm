@@ -10,6 +10,8 @@
 		window.onload = function() 
 		{
 			var ln = x=window.navigator.language||navigator.browserLanguage;
+			ln = ln.slice(0, 2)
+			
 			if(ln == 'en')
 			{
 				window.location.href = 'en/';
